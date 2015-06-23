@@ -18,7 +18,8 @@ Route::get('products', 'WelcomeController@products');
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
 
-Route::get('/admin', 'admin\HomeController@index');
+Route::get('/admin', 'admin\HomeController@home');
+Route::get('/admin/index', 'admin\IndexController@index');
 Route::get('/admin/about-us', 'admin\AboutUsController@index');
 
 

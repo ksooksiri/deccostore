@@ -39,7 +39,7 @@
     <div role="tabpanel" class="tab-pane" id="slideShow">...</div>
     <div role="tabpanel" class="tab-pane" id="partner">...</div>
   </div>
-
+{{ $content->logo->image_name }}
 
 				</div>
 			</div>
