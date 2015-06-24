@@ -20,6 +20,8 @@ Route::get('/home', 'HomeController@index');
 
 Route::get('/admin', 'admin\HomeController@home');
 Route::get('/admin/index', 'admin\IndexController@index');
+Route::get('/admin/index/create', 'admin\IndexController@create');
+Route::post('/admin/index/create', 'admin\IndexController@create');
 Route::get('/admin/about-us', 'admin\AboutUsController@index');
 
 

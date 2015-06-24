@@ -82,23 +82,23 @@
 				  <!-- Wrapper for slides -->
 				  <div class="carousel-inner" role="listbox">
 				    <div class="item active">
-				      <img src="{{ asset('/images/slides/slide-1.jpg') }}" alt="..." width="100%">
+				      <img src="{{ asset('/images/slides/slide-0.jpeg') }}" alt="..." width="100%">
 				      <div class="carousel-caption"></div>
 				    </div>
 				    <div class="item">
-				      <img src="{{ asset('/images/slides/slide-2.jpg') }}" alt="..." width="100%">
+				      <img src="{{ asset('/images/slides/slide-1.jpeg') }}" alt="..." width="100%">
 				      <div class="carousel-caption"></div>
 				    </div>
 				    <div class="item">
-				      <img src="{{ asset('/images/slides/slide-3.jpg') }}" alt="..." width="100%">
+				      <img src="{{ asset('/images/slides/slide-2.jpeg') }}" alt="..." width="100%">
 				      <div class="carousel-caption"></div>
 				    </div>
 				    <div class="item">
-				      <img src="{{ asset('/images/slides/slide-4.jpg') }}" alt="..." width="100%">
+				      <img src="{{ asset('/images/slides/slide-3.jpeg') }}" alt="..." width="100%">
 				      <div class="carousel-caption"></div>
 				    </div>
 				    <div class="item">
-				      <img src="{{ asset('/images/slides/slide-5.jpg') }}" alt="..." width="100%">
+				      <img src="{{ asset('/images/slides/slide-4.jpeg') }}" alt="..." width="100%">
 				      <div class="carousel-caption"></div>
 				    </div>
 				  </div>
@@ -143,6 +143,8 @@
 											<li><a href="{{ public_path('customer-service') }}">บริการลูกค้า</a></li>
 											<li><a href="{{ public_path('working-at-decco') }}">ร่วมงานกับเรา</a></li>
 											<li><a href="{{ public_path('how-to-find-us') }}">ติดต่อเรา</a></li>
+											<li><a href="/admin">ผู้ดูแลระบบ</a></li>
+
 					      </ul>
 					    </div><!-- /.navbar-collapse -->
 					</nav>
